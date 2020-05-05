@@ -9,5 +9,5 @@
 /infomute <target> -> Permission: permission.infomute.command
 ```
 
-Database: SQLite
+Database: SQLite (Simple and fast)
 
