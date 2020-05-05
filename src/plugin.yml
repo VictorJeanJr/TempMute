@@ -1,0 +1,9 @@
+name: TempMute
+main: victorjeanjr.tempmute.Core
+version: 1.0
+author: VictorJeanJr
+commands:
+  tempmute:
+  mute:
+  infomute:
+  unmute:

@@ -1,0 +1,41 @@
+
+#
+# Configuration of Plugin TempMute
+#
+
+# Permission commands:
+  # permission.mute.command -> /mute
+  # permission.tempmute.command -> /tempmute
+  # permission.unmute.command -> /unmute
+  # permission.infomute.command -> /infomute
+  # permission.notmute -> you cannot be mute.
+
+Messages:
+  message-mute:
+    - ' '
+    - ' &c{player} was muted by {staff}'
+    - ' &aReason: &f{reason}'
+    - ' &aTime: &f{time}'
+    - ' '
+  message-unmute:
+    - ' '
+    - ' &a{player} was unmuted by {staff}'
+    - ' '
+  commands:
+    no-have-permission: '&cYou do not have sufficient permissions to execute this command.'
+    wrong-syntax: '&cWrong syntax. Correct syntax: {command}.'
+    success-mute: '&a{player} has been successfully muted.'
+    success-unmute: '&a{player} has been successfully unmuted.'
+    player-unknown: '&a{player} not found in the database.'
+    already-muted-permanently: '&eThis player is already muted permanently.'
+    infomute:
+      - '&aMUTE - {player}'
+      - ' '
+      - '  Reason: {reason}'
+      - '  Staff: {staff}'
+      - '  Time: {time}'
+      - ' '
+  player:
+    you-muted: 'You are muted, you cannot talk in the chat.'
+  mute:
+    mute-no-reason: 'No reason'

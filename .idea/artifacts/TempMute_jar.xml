@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TempMute:jar">
+    <output-path>$USER_HOME$/Desktop/Plugins</output-path>
+    <root id="archive" name="TempMute.jar">
+      <element id="module-output" name="TempMute" />
+    </root>
+  </artifact>
+</component>
