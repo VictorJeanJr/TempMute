@@ -1,5 +1,5 @@
 # TempMute
-  A simple tempmute plugin
+  A simple tempmute plugin (Minecraft)
   
 # Commands
 ```
